@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "OutfitLight";
+    src: url(../fonts/Outfit-Light.ttf);
+}
+@font-face {
+    font-family: "OutfitRegular";
+    src: url(../fonts/Outfit-Regular.ttf);
+}
+@font-face {
+    font-family: "OutfitSemiBold";
+    src: url(../fonts/Outfit-SemiBold.ttf);
+}
