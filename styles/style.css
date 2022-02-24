@@ -2,16 +2,19 @@ body {
     font-family: "OutfitLight";
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-#container {
+.container {
     color: hsl(0, 0%, 100%);
     background-color: hsl(216, 50%, 16%);
-    width: 25%;
+    width: 25rem;
     border-radius: 18px;
-    margin: 50px auto;
     padding: 20px 5px;
-    
 }
 
 header {
@@ -27,7 +30,7 @@ header {
     background-color: hsl(178, 100%, 50%);
 }
 
-.main {
+.view-container {
     opacity: 1;
     position: absolute;
     left: 50%;
@@ -48,12 +51,12 @@ header {
     transition: opacity .5s ease;
 }
 
-.main:hover {
+.view-container:hover {
     background-color: rgba(0, 255, 247, 0.3);
     cursor: pointer;
 }
 
-.main:hover .view {
+.view-container:hover .view {
     opacity: 1;
 }
 
